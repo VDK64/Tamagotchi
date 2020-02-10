@@ -47,6 +47,4 @@ public class StartController {
         petService.createPet(TypeEntity.DOG, nameField.getText());
         commonService.toTheMainScene(dogButton);
     }
-
-
 }

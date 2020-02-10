@@ -12,21 +12,6 @@ public class GameParametersDto {
     private Weather weather;
     private boolean dead;
 
-
-
-    public GameParametersDto() { }
-
-    public GameParametersDto(Pet pet, long lastTimeCheck, Weather weather, boolean dead, long lastTimeEat,
-                             long lasTimePlay, long birthDay) {
-        this.pet = pet;
-        this.lastTimeCheck = lastTimeCheck;
-        this.weather = weather;
-        this.dead = dead;
-        this.lastTimeEat = lastTimeEat;
-        this.lasTimePlay = lasTimePlay;
-        this.birthDay = birthDay;
-    }
-
     public long getBirthDay() {
         return birthDay;
     }
