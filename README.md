@@ -7,6 +7,7 @@ If you have a problems with start application - check following things:
 and go to the VM options: Run -> Edit Configuration -> VM options
 and paste this: --module-path/opt/javafx-sdk-11.0.2/lib--add-modules=javafx.controls,javafx.graphics,javafx.fxml,
 javafx.base,javafx.media
+
 Add your path to /lib directory into JavaFx on your computer instead '/opt/javafx-sdk-11.0.2/lib' in example.
 
 -------------------------------------------------------------------------------------------------------------------
