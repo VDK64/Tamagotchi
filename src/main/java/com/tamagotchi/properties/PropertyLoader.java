@@ -60,7 +60,6 @@ public class PropertyLoader {
             START_MENU = property.getProperty("START_MENU");
             MAIN_SCENE = property.getProperty("MAIN_SCENE");
             MUSIC_FILE = property.getProperty("MUSIC_FILE");
-            AFTER_DEATH_TIME = Long.parseLong(property.getProperty("AFTER_DEATH_TIME"));
             DEAD_MESSAGE = property.getProperty("DEAD_MESSAGE");
             GOOD_MOOD = property.getProperty("GOOD_MOOD");
             SAD_MOOD = property.getProperty("SAD_MOOD");
@@ -87,9 +86,9 @@ public class PropertyLoader {
             TIME_TO_GROW = Long.parseLong(property.getProperty("TIME_TO_GROW"));
             TIME_TO_LIVE_WITH_HUNGER = Long.parseLong(property.getProperty("TIME_TO_LIVE_WITH_HUNGER"));
             TIME_WITHOUT = Long.parseLong(property.getProperty("TIME_WITHOUT"));
-
             WALK_DELAY = Long.parseLong(property.getProperty("WALK_DELAY"));
             CHANGE_WEATHER_DELAY = Long.parseLong(property.getProperty("CHANGE_WEATHER_DELAY"));
+            AFTER_DEATH_TIME = Long.parseLong(property.getProperty("AFTER_DEATH_TIME"));
         } catch (IOException e) {
             e.printStackTrace();
         }
