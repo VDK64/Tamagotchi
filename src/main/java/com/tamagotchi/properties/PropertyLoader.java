@@ -81,7 +81,7 @@ public class PropertyLoader {
             DOG_EAT = property.getProperty("DOG_EAT");
             DOG_PLAY = property.getProperty("DOG_PLAY");
 
-            fis = new FileInputStream("src/main/resources/GameValues.properties");
+            fis = new FileInputStream("src/main/resources/gameValues.properties");
             property.load(fis);
 
             TIME_TO_GROW = Long.parseLong(property.getProperty("TIME_TO_GROW"));
