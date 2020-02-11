@@ -1,6 +1,6 @@
 # Tamagotchi
 This app is a parody on famous game from the 90's. This guide help you to know basics things.
-If you have a problems with start application - check following things:
+If you have a problems with start application - check this:
 
 1. You must have installed Maven.
 2. If you are haven't gor an JavaFx on your computer - download it from: https://gluonhq.com/products/javafx 
