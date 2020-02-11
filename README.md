@@ -7,9 +7,10 @@ If you have a problems with start application - check following things:
 and go to the VM options: Run -> Edit Configuration -> VM options
 and paste this: --module-path/opt/javafx-sdk-11.0.2/lib--add-modules=javafx.controls,javafx.graphics,javafx.fxml,
 javafx.base,javafx.media
-
 Add your path to /lib directory into JavaFx on your computer instead '/opt/javafx-sdk-11.0.2/lib' in example.
+
 -------------------------------------------------------------------------------------------------------------------
+                                                About the game
 When you download and run this app you will want to configure parameters of this game. You may do this in 
 gameValues.properties (src/main/resources/GameValues.properties). There are two pet in this game. You must choose one when
 starting. Then your are begin to look for the pet: give eat and play. If you forget about your pet - he will die. 
