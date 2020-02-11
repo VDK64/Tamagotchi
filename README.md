@@ -3,7 +3,7 @@ This app is a parody on famous game from the 90's. This guide help you to know b
 If you have a problems with start application - check this:
 
 1. You must have installed Maven.
-2. If you are haven't gor an JavaFx on your computer - download it from: https://gluonhq.com/products/javafx 
+2. If you are haven't got an JavaFx on your computer - download it from: https://gluonhq.com/products/javafx 
 and go to the VM options: Run -> Edit Configuration -> VM options
 and paste this: --module-path/opt/javafx-sdk-11.0.2/lib--add-modules=javafx.controls,javafx.graphics,javafx.fxml,
 javafx.base,javafx.media
