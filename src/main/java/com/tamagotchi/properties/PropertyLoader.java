@@ -5,7 +5,6 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertyLoader {
-    private static final PropertyLoader instance = new PropertyLoader();
     public static String AFTER_DEATH_ERROR;
     public static String EMPTY_NAME_ERROR;
     public static String SAVE_DATA_FILE_NAME;
@@ -43,10 +42,9 @@ public class PropertyLoader {
 
 
     private PropertyLoader() {
-        loadProperties();
     }
 
-    public void loadProperties() {
+    static {
         try {
             Properties property = new Properties();
             FileInputStream fis = new FileInputStream("src/main/resources/application.properties");
